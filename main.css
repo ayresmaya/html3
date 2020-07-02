@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url("images/zinniaBackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;}
+#container{
+	height: 900px;
+	margin: 100px;}
+header{
+	width: auto;
+	height: 200px;}
+header h1{
+	font-size: 150px;
+	font-family: scriptorama-markdown-jf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color :rgba(130,32,39,.75);}
+nav{
+	width: 100%;
+	text-align: center;}
+nav ul{
+	list-style-type: none;
+	margin-top: 35px;
+	padding-bottom: 90px;}
+nav li {
+	display: inline;
+	margin: 80px;}
+li {
+	font-family: relation-one, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+}
+li a{
+	text-decoration: none;
+	color: rgba(113,41,58,1.00); 
+}
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: 100;
+	font-style: normal;
+	color: rgba(45,0,0,1.00)}
+.left{
+	float: left;
+	margin-bottom: 30px;
+	margin-top: -75px;
+	margin-left: -50px;
+}
+footer{
+	text-align: center;
+	clear: both;
+}
